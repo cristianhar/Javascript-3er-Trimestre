@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimentos de Física</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Registro de Experimentos de Física</h2>
+
+    <form id="formulario">
+        <label for="numExperimentos">Número total de experimentos:</label>
+        <input type="number" id="numExperimentos" name="numExperimentos" min="1"><br>
+
+        <button type="button" onclick="calcularResultados()">Calcular Resultados</button>
+        <a href="index.html"><button type="button">Volver al inicio</button></a>
+    </form>
+
+    <h2>Resultados</h2>
+    <div id="resultados">
+        <p>Números de móviles acelerados: <span id="acelerados">0</span></p>
+        <p>Numero de móviles desacelerados: <span id="desacelerados">0</span></p>
+        <p>Numero de móviles sin aceleración: <span id="sinAceleracion">0</span></p>
+        <p>Valor promedio de la aceleración: <span id="promedioAceleracion">0</span></p>
+        <p>Valor promedio de la desaceleración: <span id="promedioDesaceleracion">0</span></p>
+    </div>
+
+    <script src="main.js"></script>
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+</body></html>

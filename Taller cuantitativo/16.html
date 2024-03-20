@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Salarios</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Calcular Salarios Semanales</h2>
+
+    <form id="formulario">
+        <label for="cantidadObreros">Ingrese la cantidad de obreros:</label>
+        <input type="number" id="cantidadObreros" name="cantidadObreros" min="1" required>
+        <button type="button" onclick="calcularSalariodos()">Calcular Salarios</button>
+        <a href="index.html"><button type="button">Volver al inicio</button></a>
+    </form>
+
+    <h2>Resultados</h2>
+    <div id="resultados">
+ 
+    </div>
+
+    <script src="main.js"></script>
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+</body>
+</html>

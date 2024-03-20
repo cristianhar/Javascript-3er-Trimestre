@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora en JavaScript</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ7zdp3pfh5KEnSThxm6aQ_WFoIN4Nm_Y_uzQUAcVWDA&s');
+            
+        }
+
+        form {
+            background-color: #a2abb6;
+            border-radius: 100%;
+            padding: 120px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        input[type="text"], input[type="button"] {
+            width: 100%;
+        }
+
+        input[type="button"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="button"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Operaciones en Javascript</h1>
+        <h3>Ingrese un número</h3>
+        <input type="text" id="num1">
+        <h3>Ingrese otro número</h3>
+        <input type="text" id="num2"> <br><br>
+
+        <input type="button" value="Sumar" onclick="sumar()">
+        <input type="button" value="Restar" onclick="restar()">
+        <input type="button" value="Multiplicar" onclick="multiplicar()">
+        <input type="button" value="Dividir" onclick="dividir()"><br>
+
+        <h3>El resultado es:</h3>
+        <input type="text" id="resultado" readonly> <br><br>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

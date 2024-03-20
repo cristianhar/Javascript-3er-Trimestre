@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+  
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meses.html">Meses</a></li>
+            <li><a href="llamada.html">Llamada</a></li>
+            <li><a href="triangulo.html">Triangulo</a></li>
+            <li><a href="cobrointeres.html">Cobro interes</a></li>
+            <li><a href="notadefinitiva.html">Nota definitiva</a></li>
+            <li><a href="tipodepago.html">Tipo pago</a></li>
+            <li><a href="maraton.html">Maraton</a></li>
+            <li><a href="manzanas.html">Manzanas</a></li>
+            <li><a href="avion.html">Avion costo</a></li>
+            <li><a href="horasextras.html">Horas Extras</a></li>
+        </ul>
+    </nav>
+    <center>
+
+    <h2>Calculadora </h2>
+    <form id="calculatorForm">
+        <label for="num1">Número 1:</label><br>
+        <input type="number" id="num1" name="num1" required><br>
+
+        <label for="num2">Número 2:</label><br>
+        <input type="number" id="num2" name="num2" required><br>
+        <label for="operacion">Operación:</label><br>
+        <select id="operacion" name="operacion" required><br>
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">División</option>
+        </select><br>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+    <h3>Resultado:</h3>
+    <input id="resultado"></input>
+</center>
+<footer>
+    <p>&copy; Johao Javascript</p>
+</footer>
+
+     <!-- Aqui lo llamo -->
+    <script src="main.js"></script>
+</body>
+</html>

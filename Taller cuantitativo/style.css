@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background: linear-gradient(to right, #ffcc00, #ff3300); /* Cambia los colores según tus preferencias */
+}
+
+#formulario {
+    width: 300px; /* Ancho del formulario */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f1f1f1; /* Fondo del formulario */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 4px;
+    background-color: #555;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.presentation {
+    text-align: center;
+    padding: 20px;
+}
+
+.exercise-description {
+    margin: 20px;
+}
+
+
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+}
+
+
+input {
+    padding: 10px; /* Espaciado interno */
+    margin: 5px 0; /* Margen superior e inferior */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    box-sizing: border-box; /* Tamaño incluyendo el borde */
+}
+
+
+label {
+    display: block; /* Hacer etiquetas de formulario en una nueva línea */
+    margin-bottom: 5px; /* Margen inferior */
+}
+
+footer {
+    margin-top: 20px; /* Espaciado entre el contenido y el pie de página, ajusta según necesidades */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left : -10px;
+}

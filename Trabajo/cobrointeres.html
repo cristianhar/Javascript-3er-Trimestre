@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cobro de Intereses</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meses.html">Meses</a></li>
+            <li><a href="llamada.html">Llamada</a></li>
+            <li><a href="triangulo.html">Triangulo</a></li>
+            <li><a href="cobrointeres.html">Cobro interes</a></li>
+            <li><a href="notadefinitiva.html">Nota definitiva</a></li>
+            <li><a href="tipodepago.html">Tipo pago</a></li>
+            <li><a href="maraton.html">Maraton</a></li>
+            <li><a href="manzanas.html">Manzanas</a></li>
+            <li><a href="avion.html">Avion costo</a></li>
+            <li><a href="horasextras.html">Horas Extras</a></li>
+        </ul>
+    </nav>
+    <center>
+
+    <h2>Cobro intereses</h2>
+    <!-- Formulario que pide un solo valor con boton convertir-->
+    <form>
+        <label for="prestamo">Valor del Prestamo:</label><br>
+        <input type="number" id="prestamo" name="prestamo" required><br>
+
+        <label for="periodo">Meses :</label><br>
+        <input type="number" id="periodo" name="periodo" required><br>
+
+        <label for="interes">Interes seleccionado:</label><br>
+        <select id="interes" name="interes" required><br>
+            <option value="dos">0.02%</option>
+            <option value="ocho">0.08%</option>
+        </select><br>
+        <button type="button" onclick="cobrointeres()">Cobrar</button>
+    </form>
+
+    <h3>Resultado:</h3>
+    <input id="cobro" readonly></input>
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>

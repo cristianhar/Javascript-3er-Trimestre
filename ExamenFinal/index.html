@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Final de JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        hr {
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="number"] {
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXAMEN FINAL DE JAVASCRIPT CRISTIAN JOHAO ARBOLEDA HENAO FICHA 2795599</h1>
+    <p>
+        1. Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó 10 €, el segundo
+        20 €, el tercero 40 € y así sucesivamente. Realizar un algoritmo para determinar cuánto debe
+        pagar mensualmente y el total de lo que pagó después de los 20 meses.
+    </p>
+    <hr>
+    <p>
+        2. Dados 5 valores, realice un algoritmo que haga el siguiente proceso e imprima sus resultados:<br>
+        a. Si el valor es menor que cero, calcular su cubo.<br>
+        b. Si el valor está entre 0 y 100, calcular su cuadrado<br>
+        c. Si el valor es mayor que 100 y menor o igual a 1000, calcular su doble.<br>
+        d. Si es mayor a 1000, imprimir el numero leído.
+    </p>
+    <hr>
+    <p>
+        3. Elabore un programa que lea un número e imprime un triángulo de números de la forma
+        siguiente. Si el número leído es 4, imprimirá en pantalla o consola#: <br>
+        1<br>
+        22<br>
+        333<br>
+        4444
+    </p>
+    <hr>
+    <p>
+        4. Elabore un programa que imprima los números entre 1 y 100, con la condición de que, si el
+        número es múltiplo de 7 o termina en 7, ¡¡imprimirá la palabra “PUMM!!”
+    </p>
+    <h2>Punto 1</h2>
+    <form id="form1">
+        <label for="valor1">Calcular cantidad de meses :</label><br>
+        <input type="number" id="valor1" name="valor1"><br>
+        <button type="button" onclick="calcularmeses()">Calcular</button>
+    </form>
+    <hr>
+    <h2>Punto 2</h2>
+    <form id="form2">
+        <label for="valor2">Ingresa un numero :</label><br>
+        <input type="number" id="valor2" name="valor2"><br>
+        <button type="button" onclick="calcularvalores()">Calcular</button>
+    </form>
+    <hr>
+    <h2>Punto 3</h2>
+    <form id="form3">
+        <label for="valor3">Imprimir triangulo del numero :</label><br>
+        <input type="number" id="valor3" name="valor3"><br>
+        <button type="button" onclick="calculartriangulo()">Calcular</button>
+    </form>
+    <hr>
+    <h2>Punto 4</h2>
+    <form id="form4">
+        <label for="valor4">Valor Inicial:</label><br>
+        <input type="number" id="valor4" name="valor4"><br>
+        <label for="valor5">Valor Final:</label><br>
+        <input type="number" id="valor5" name="valor5"><br>
+        <button type="button" onclick="multiplospum()">Calcular</button>
+    </form>
+    <hr>
+
+    <script src="main.js"></script>
+</body>
+</html>

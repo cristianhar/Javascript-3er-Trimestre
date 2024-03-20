@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Salario Neto Mensual</title>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meses.html">Meses</a></li>
+            <li><a href="llamada.html">Llamada</a></li>
+            <li><a href="triangulo.html">Triangulo</a></li>
+            <li><a href="cobrointeres.html">Cobro interes</a></li>
+            <li><a href="notadefinitiva.html">Nota definitiva</a></li>
+            <li><a href="tipodepago.html">Tipo pago</a></li>
+            <li><a href="maraton.html">Maraton</a></li>
+            <li><a href="manzanas.html">Manzanas</a></li>
+            <li><a href="avion.html">Avion costo</a></li>
+            <li><a href="horasextras.html">Horas Extras</a></li>
+        </ul>
+    </nav>
+    <center>
+
+    <h2>Calcular Pago</h2>
+
+
+    <form>
+        <label for="nombreTrabajador">Nombre del trabajador:</label><br>
+        <input type="text" id="nombreTrabajador" name="nombreTrabajador" required>
+        <br>
+        <label for="valorHora">Valor por hora:</label><br>
+        <input type="number" id="valorHora" name="valorHora" min="0" required>
+        <br>
+        <label for="horasAlMes">Horas trabajadas al mes:</label><br>
+        <input type="number" id="horasAlMes" name="horasAlMes" min="0" required>
+        <br>
+        <button type="button" onclick="calcularSalarioNeto()">Calcular Salario Neto</button>
+    </form>
+
+    <label for="salarioNeto">Salario Neto:</label><br>
+    <input type="text" id="salarioNeto" name="salarioNeto" readonly>
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,96 @@
+
+
+body{
+    
+    background: linear-gradient(to right, #ffcc00, #ff3300); /* Cambia los colores según tus preferencias */
+}
+nav {
+    border-radius: 20px;
+    background-color: #333;
+    text-align: center;
+    
+}
+
+ul {
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    margin-left: 20px;
+    float: left;
+    
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+form{
+margin-top: 20px;
+}
+footer {
+    margin-top: 20px; /* Espaciado entre el contenido y el pie de página, ajusta según necesidades */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left : -10px;
+}
+/* Estilos para inputs, botones y selects */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="submit"],
+button,
+select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+select {
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+}
+
+input[type="submit"],
+button,
+select {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover,
+select:hover {
+    background-color: #45a049;
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tus preferencias */
+   
+}

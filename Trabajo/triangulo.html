@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Triangulo Lados</title>
+</head>
+<body>
+    <center>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meses.html">Meses</a></li>
+                <li><a href="llamada.html">Llamada</a></li>
+                <li><a href="triangulo.html">Triangulo</a></li>
+                <li><a href="cobrointeres.html">Cobro interes</a></li>
+                <li><a href="notadefinitiva.html">Nota definitiva</a></li>
+                <li><a href="tipodepago.html">Tipo pago</a></li>
+                <li><a href="maraton.html">Maraton</a></li>
+                <li><a href="manzanas.html">Manzanas</a></li>
+                <li><a href="avion.html">Avion costo</a></li>
+                <li><a href="horasextras.html">Horas Extras</a></li>
+            </ul>
+        </nav>
+        <center>
+    
+        <h2>Tipo de triangulo</h2>
+    <!-- Formulario que pide un solo valor con boton convertir-->
+    <form>
+        <label for="lado1">Lado 1:</label><br>
+        <input type="number" id="lado1" name="lado1" required><br>
+        <label for="lado2">Lado 2:</label><br>
+        <input type="number" id="lado2" name="lado2" required><br>
+        <label for="lado3">Lado 3:</label><br>
+        <input type="number" id="lado3" name="lado3" required><br>
+
+        <button type="button" onclick="triangulotipo()">Consultar</button>
+    </form>
+
+    <h3>Resultado:</h3>
+    <input id="triangulo" readonly></input>
+</center>
+
+<footer>
+    <p>&copy; Johao Javascript</p>
+</footer>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>

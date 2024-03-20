@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avion</title>
+</head>
+<body>
+
+        
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="meses.html">Meses</a></li>
+            <li><a href="llamada.html">Llamada</a></li>
+            <li><a href="triangulo.html">Triangulo</a></li>
+            <li><a href="cobrointeres.html">Cobro interes</a></li>
+            <li><a href="notadefinitiva.html">Nota definitiva</a></li>
+            <li><a href="tipodepago.html">Tipo pago</a></li>
+            <li><a href="maraton.html">Maraton</a></li>
+            <li><a href="manzanas.html">Manzanas</a></li>
+            <li><a href="avion.html">Avion costo</a></li>
+            <li><a href="horasextras.html">Horas Extras</a></li>
+        </ul>
+    </nav>
+    <center>
+
+    <h2>Avion cobro distancia</h2>
+          
+    <form>
+        <label for="distancia">Distancia a recorrer (en kilómetros):</label><br>
+        <input type="number" id="distancia" name="distancia" min="0" required>
+        <br>
+        <label for="diasEstancia">Número de días de estancia:</label><br>
+        <input type="number" id="diasEstancia" name="diasEstancia" min="0" required>
+        <br>
+        <button type="button" onclick="calcularPrecioPasaje()">Calcular Precio del Pasaje</button>
+    </form>
+
+    <label for="precioPasaje">Precio del Pasaje:</label><br>
+    <input type="text" id="precioPasaje" name="precioPasaje" readonly>
+    </center>
+
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Boletos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Seleccione la cantidad de boletos para cada ruta:</h2>
+
+    <form id="formulario">
+        <label for="ruta">Seleccione una ruta:</label>
+        <select id="ruta" name="ruta">
+            <option value="Medellín - Miami">Medellín - Miami</option>
+            <option value="Medellín – Bogotá - Roma">Medellín – Bogotá - Roma</option>
+            <option value="Medellín – Panamá- Los Ángeles">Medellín – Panamá- Los Ángeles</option>
+            <option value="Medellín – Bogotá - Madrid">Medellín – Bogotá - Madrid</option>
+            <option value="Medellín – Miami –Toronto">Medellín – Miami –Toronto</option>
+            <option value="Medellín – Buenos Aires">Medellín – Buenos Aires</option>
+        </select><br>
+
+        <label for="cantidad">Cantidad de boletos:</label>
+        <input type="number" id="cantidad" name="cantidad" min="0" value="0"><br>
+
+        <button type="button" onclick="validarCompra()">Comprar Boletos</button>
+        <a href="index.html"><button type="button">Volver al inicio</button></a>
+    </form>
+
+    <div id="resultado" class="error-message"></div>
+
+    <h2>Total de boletos vendidos por ruta:</h2>
+    <div id="totalBoletos"></div>
+    <script src="main.js"></script>
+    <footer>
+        <p>&copy; Johao Javascript</p>
+    </footer>
+</body>
+</html>
